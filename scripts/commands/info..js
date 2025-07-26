@@ -25,15 +25,15 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/0NYJcjpR/Messenger-creation-1401370797218406.png", 
+var link = ["https://i.postimg.cc/rwkPdFVr/20250508-073525.jpg", 
             
-            "https://i.postimg.cc/JhxzskNn/Snapchat-2014418092.jpg", 
+            "https://i.postimg.cc/gJFdrbTt/Messenger-creation-20-CF0230-998-B-4550-8-F8-D-215-C6-FBE36-A9.jpg", 
             
-            "https://i.postimg.cc/0NYJcjpR/Messenger-creation-1401370797218406.png",
+            "https://i.postimg.cc/vm1HczHT/IMG20250331132445.jpg",
 
-"https://i.postimg.cc/8cJpXXqJ/Snapchat-670991066.jpg",
+"https://i.postimg.cc/Pr8LRdkN/IMG20250430172943.jpg",
             
-            "https://i.postimg.cc/KvRXLsTB/FB-IMG-1709702111184.jpg"];
+            "https://i.postimg.cc/ncVR4w8d/IMG20250508083200.jpg"];
   
 var callback = () => api.sendMessage({body:`🌺🍒🐰❀𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍💝🐰🍒 
 
@@ -45,7 +45,7 @@ ________________________________________
 
 💠𝐁𝐎𝐓 𝐍𝐀𝐌𝐄💠 : ${global.config.BOTNAME}
 
-🌼𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍🌼 : 『😽👉𝐑𝐉-𝐅𝐀𝐑𝐇𝐀𝐍👈😽』
+🌼𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍🌼 : 『😽👉𝐒𝐀𝐍𝐓𝐎👈😽』
 
 🔥𝐁𝐈𝐎 𝐀𝐃𝐌𝐈𝐍🔥 : [ ⊱༅༎😽💚༅༎⊱
 
@@ -57,17 +57,17 @@ ________________________________________
 
 ⊱༅༎😽💚༅༎⊱ ]
 
-🏠𝐀𝐃𝐃𝐑𝐄𝐒𝐒🏠 :[𝐂𝐇𝐔𝐀𝐃𝐀𝐍𝐆𝐀]:[𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇] 
+🏠𝐀𝐃𝐃𝐑𝐄𝐒𝐒🏠 :[𝐁𝐀𝐑𝐈𝐒𝐇𝐀𝐋]:[𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇] 
 🌺𝐑𝐄𝐋𝐈𝐆𝐈𝐎𝐍🌺 :[𝐈𝐒𝐋𝐀𝐌]
 💮𝐆𝐄𝐍𝐃𝐄𝐑💮  :[𝐌𝐀𝐋𝐄]
 🌸𝐑𝐄𝐋𝐀𝐓𝐈𝐎𝐍𝐒𝐇𝐈𝐏🌸 :[𝐒𝐈𝐍𝐆𝐋𝐄]
 🌼𝐖𝐎𝐑𝐊🌼 :[𝐉𝐎𝐁]
-🌷𝐖𝐇𝐀𝐓'𝐒 𝐀𝐏𝐏🌷:[𝟎𝟏𝟖𝟔𝟔𝟔𝟕𝟑𝟖𝟎𝟏]
+🌷𝐖𝐇𝐀𝐓'𝐒 𝐀𝐏𝐏🌷:[𝟎𝟏𝟑𝟑𝟏𝟖𝟏𝟓𝟎𝟐𝟎]
 _____________🅲🅾🅽🆃🅰🅲🆃_____________
 
 💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 (❶)💥 : https://www.facebook.com/profile.php?id=61550529403710
 
-💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 (❷)💥 : https://www.facebook.com/profile.php?id=61550121814016&mibextid=eBUYbo
+💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 (❷)💥 : https://www.facebook.com/share/16tbfLvHQk/
 
 ✴️𝐁𝐎𝐓 𝐏𝐑𝐄𝐅𝐈𝐗✴️ : ${global.config.PREFIX}
 
