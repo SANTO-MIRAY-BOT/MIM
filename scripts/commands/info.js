@@ -36,7 +36,7 @@ ________________________________________
 
 💠𝐁𝐎𝐓 𝐍𝐀𝐌𝐄💠 : ${global.config.BOTNAME}
 
-🌼𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍🌼 : 『😽👉  𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍 👈😽』
+🌼𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍🌼 : 『😽👉 𝐒𝐀𝐍𝐓𝐎 👈😽』
 
 🔥𝐁𝐈𝐎 𝐀𝐃𝐌𝐈𝐍🔥 : [ ⊱༅༎😽💚༅༎⊱
 
@@ -48,13 +48,13 @@ ________________________________________
 
 ⊱༅༎😽💚༅༎⊱ ]
 
-🏠𝐀𝐃𝐃𝐑𝐄𝐒𝐒🏠 : যশোর, বাংলাদেশ
+🏠𝐀𝐃𝐃𝐑𝐄𝐒𝐒🏠 : বরিশাল, বাংলাদেশ
 
 _____________🅲🅾🅽🆃🅰🅲🆃_____________
 
 💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 (❶)💥 : https://www.facebook.com/profile.php?id=61550529403710
 
-💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 (❷)💥 : https://www.facebook.com/profile.php?id=100089582321226
+💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 (❷)💥 : https://www.facebook.com/profile.php?id=100078828144855
 
 ✴️𝐁𝐎𝐓 𝐏𝐑𝐄𝐅𝐈𝐗✴️ : ${global.config.PREFIX}
 
@@ -78,6 +78,6 @@ _____________🅲🅾🅽🆃🅰🅲🆃_____________
 
 💚🌺𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆🌺💚 ${global.config.BOTNAME} 『😽🖤🌺』`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
   fs.unlinkSync(__dirname + "/cache/1.png"));  
-    return request(encodeURI(`https://graph.facebook.com/61550529403710/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
+    return request(encodeURI(`https://www.facebook.com/profile.php?id=100078828144855/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
  };
