@@ -19,17 +19,17 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/0NYJcjpR/Messenger-creation-1401370797218406.png", 
+var link = ["https://i.postimg.cc/tJLCdnSy/cc5b485038c7a9a7bd093ef1a39f0ca9.jpg", 
             
-            "https://i.postimg.cc/JhxzskNn/Snapchat-2014418092.jpg", 
+            "https://i.postimg.cc/tJLCdnSy/cc5b485038c7a9a7bd093ef1a39f0ca9.jpg", 
             
-            "https://i.postimg.cc/0NYJcjpR/Messenger-creation-1401370797218406.png",
+            "https://i.postimg.cc/tJLCdnSy/cc5b485038c7a9a7bd093ef1a39f0ca9.jpg",
 
-"https://i.postimg.cc/8cJpXXqJ/Snapchat-670991066.jpg",
+"https://i.postimg.cc/tJLCdnSy/cc5b485038c7a9a7bd093ef1a39f0ca9.jpg",
             
-            "https://i.postimg.cc/KvRXLsTB/FB-IMG-1709702111184.jpg"];
+            "https://i.postimg.cc/tJLCdnSy/cc5b485038c7a9a7bd093ef1a39f0ca9.jpg"];
 
-var callback = () => api.sendMessage({body:`╭•┄┅══𓆩𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍𓆪══┅┄•╮\n\nꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿⃟ꗥꔸআসসালামু আলাইকুমꔸꗥ⃟ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿\n
+var callback = () => api.sendMessage({body:`╭•┄┅══𓆩𝐒𝐀𝐍𝐓𝐎𓆪══┅┄•╮\n\nꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿⃟ꗥꔸআসসালামু আলাইকুমꔸꗥ⃟ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿\n
 
 •—»গ্রুপ এর কিছু রুলস আছে, এগুলো হয়তো অনেকেই জানেন না যারা জানে না তারা জেনে রাখেন💥
 
@@ -74,7 +74,7 @@ var callback = () => api.sendMessage({body:`╭•┄┅══𓆩𝐑𝐉 𝐅�
 
 <------------------------------------------------------------------------->___সাথেই থাকুন🌸༅༎•─
 
-ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿⃟ꗥ𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑:𓆩𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍𓆪ꗥ⃟ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿
+ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿⃟ꗥ𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑:𓆩𝐒𝐀𝐍𝐓𝐎𓆪ꗥ⃟ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿
 
 ─༅༎•🌺ধন্যবাদ সবাইকে🌸༅༎•─\n\n╰•┄┅══𓆩𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍𓆪══┅┄•╯`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
